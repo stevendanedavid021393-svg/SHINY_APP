@@ -1,4 +1,4 @@
-# Iris Dashboard - a simple Shiny app using R's built-in iris data set.
+# Iris Explorer - a simple Shiny app using R's built-in iris data set.
 #
 # Dashboard: 3 visualizations (scatter plot, histogram, box plot)
 # Interactive function: pick the species and the measurement to explore;
@@ -12,7 +12,7 @@ measurements <- names(iris)[1:4]
 
 # ---- UI: what the user sees -------------------------------------------------
 ui <- fluidPage(
-  titlePanel("Iris Dashboard"),
+  titlePanel("Iris Explorer"),
 
   sidebarLayout(
     # Interactive controls

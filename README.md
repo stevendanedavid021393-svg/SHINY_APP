@@ -1,4 +1,4 @@
-# Iris Dashboard (Shiny App)
+# Iris Explorer (Shiny App)
 
 A simple R Shiny app built on R's built-in `iris` data set.
 
